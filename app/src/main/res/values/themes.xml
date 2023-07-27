@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InstagramProfile_ConstraintLayout" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.InstagramProfile_ConstraintLayout" parent="Base.Theme.InstagramProfile_ConstraintLayout" />
+
+        <style name="Theme.InstagramProfile" parent="Base.Theme.InstagramProfile_ConstraintLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/TextSize16sp</item>
+        <item name="android:textColor">@color/black</item>
+        </style>
+
+        <style name="InstagramProfileDetails" parent="Base.Theme.InstagramProfile_ConstraintLayout">
+        <item name="android:layout_width">@dimen/NumbersWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/TextSize16sp</item>
+        <item name="android:gravity">center</item>
+        </style>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="linePadding">4dp</dimen>
+    <dimen name="imageWidth_Height">110dp</dimen>
+    <dimen name="FirstLinearLayoutMarginTop">30dp</dimen>
+    <dimen name="SecondLinearLayoutMarginTop">15dp</dimen>
+    <dimen name="SecondLinearLayoutMarginStart">25dp</dimen>
+    <dimen name="ButtonWidth">170dp</dimen>
+    <dimen name="NumbersWidth">70dp</dimen>
+    <dimen name="ButtonHeight">60dp</dimen>
+    <dimen name="ButtonMarginTop">40dp</dimen>
+    <dimen name="ButtonTextSize">20sp</dimen>
+    <dimen name="TextSize8sp">8sp</dimen>
+    <dimen name="TextSize16sp">16sp</dimen>
+    <dimen name="TextSize24sp">24sp</dimen>
+    <dimen name="TextSize32sp">32sp</dimen>
+    <dimen name="Margin8dp">8dp</dimen>
+    <dimen name="Margin16dp">16dp</dimen>
+    <dimen name="Margin24dp">24dp</dimen>
+    <dimen name="Margin32dp">32dp</dimen>
+    <dimen name="Padding8dp">8dp</dimen>
+    <dimen name="Padding16dp">16dp</dimen>
+    <dimen name="Padding24dp">24dp</dimen>
+    <dimen name="Padding32dp">32dp</dimen>
+    <dimen name="Margin64dp">64dp</dimen>
+    <dimen name="Btn_marginBottom">280dp</dimen>
+</resources>

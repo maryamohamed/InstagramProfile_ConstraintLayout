@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">InstagramProfile_ConstraintLayout</string>
+    <string name="following">Following</string>
+    <string name="followingNumber">226</string>
+    <string name="followers">Followers</string>
+    <string name="FollowersNumber">4,253</string>
+    <string name="posts">Posts</string>
+    <string name="PostsNumber">29</string>
+    <string name="better_ux_better_world">Better UX Better World</string>
+    <string name="designer">Designer</string>
+    <string name="text1">Bite-Sized learnings from my experience as #ux </string>
+    <string name="text2">#designer for the next generation Product Peeps.</string>
+    <string name="text3">BUBW Podcast-Spotify… more  </string>
+    <string name="text4">toplink.cc/ux.bubw</string>
+    <string name="text_on_btn">Follow on</string>
+</resources>

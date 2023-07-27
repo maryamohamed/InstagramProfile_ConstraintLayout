@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/Padding16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_ProfilePicture"
+        android:layout_width="@dimen/imageWidth_Height"
+        android:layout_height="@dimen/imageWidth_Height"
+        android:layout_marginStart="@dimen/Padding24dp"
+        android:layout_marginTop="@dimen/Padding32dp"
+        android:src="@drawable/img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_PostsNumbr"
+        style="@style/InstagramProfileDetails"
+        android:layout_marginStart="@dimen/Margin8dp"
+        android:layout_marginTop="@dimen/Margin64dp"
+        android:text="@string/PostsNumber"
+        app:layout_constraintStart_toEndOf="@+id/iv_ProfilePicture"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_PostsText"
+        style="@style/InstagramProfileDetails"
+        android:layout_marginStart="@dimen/Margin8dp"
+        android:text="@string/posts"
+        app:layout_constraintStart_toEndOf="@+id/iv_ProfilePicture"
+        app:layout_constraintTop_toBottomOf="@+id/tv_PostsNumbr" />
+
+    <TextView
+        android:id="@+id/tv_FollowersNumber"
+        style="@style/InstagramProfileDetails"
+        android:layout_marginStart="@dimen/Margin8dp"
+        android:layout_marginTop="@dimen/Margin64dp"
+        android:text="@string/FollowersNumber"
+        app:layout_constraintStart_toEndOf="@+id/tv_PostsNumbr"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_FollowersText"
+        style="@style/InstagramProfileDetails"
+        android:layout_marginStart="@dimen/Margin8dp"
+        android:text="@string/followers"
+        app:layout_constraintStart_toEndOf="@+id/tv_PostsText"
+        app:layout_constraintTop_toBottomOf="@+id/tv_FollowersNumber" />
+
+    <TextView
+        android:id="@+id/tv_FollowingNumber"
+        style="@style/InstagramProfileDetails"
+        android:layout_marginStart="@dimen/Margin8dp"
+        android:layout_marginTop="@dimen/Margin64dp"
+        android:text="@string/followingNumber"
+        app:layout_constraintStart_toEndOf="@+id/tv_FollowersNumber"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_FollowingText"
+        style="@style/InstagramProfileDetails"
+        android:layout_marginStart="@dimen/Margin8dp"
+        android:text="@string/following"
+        app:layout_constraintStart_toEndOf="@+id/tv_FollowersText"
+        app:layout_constraintTop_toBottomOf="@+id/tv_FollowingNumber" />
+
+    <TextView
+        android:id="@+id/tv_FirstDescription"
+        style="@style/Theme.InstagramProfile"
+        android:layout_marginStart="@dimen/Margin24dp"
+        android:layout_marginTop="@dimen/Margin24dp"
+        android:text="@string/better_ux_better_world"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_ProfilePicture" />
+
+    <TextView
+        android:id="@+id/tv_SecondDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/designer"
+        android:textColor="@color/user"
+        app:layout_constraintEnd_toEndOf="@+id/tv_FirstDescription"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_FirstDescription"
+        app:layout_constraintTop_toBottomOf="@+id/tv_FirstDescription" />
+
+    <TextView
+        android:id="@+id/tv_FirstBio"
+        style="@style/Theme.InstagramProfile"
+        android:drawablePadding="@dimen/linePadding"
+        android:text="@string/text1"
+        app:drawableStartCompat="@drawable/waving_hand_light_skin_tone_svgrepo_com"
+        app:layout_constraintEnd_toEndOf="@+id/tv_FirstDescription"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_FirstDescription"
+        app:layout_constraintTop_toBottomOf="@+id/tv_SecondDescription" />
+
+    <TextView
+        android:id="@+id/tv_SecondBio"
+        style="@style/Theme.InstagramProfile"
+        android:drawablePadding="@dimen/linePadding"
+        android:text="@string/text2"
+        app:layout_constraintEnd_toEndOf="@+id/tv_FirstDescription"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_FirstDescription"
+        app:layout_constraintTop_toBottomOf="@+id/tv_FirstBio" />
+
+    <TextView
+        android:id="@+id/tv_ThirdBio"
+        style="@style/Theme.InstagramProfile"
+        android:drawablePadding="@dimen/linePadding"
+        android:text="@string/text3"
+        app:drawableStartCompat="@drawable/microphone"
+        app:layout_constraintEnd_toEndOf="@+id/tv_SecondBio"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_SecondBio"
+        app:layout_constraintTop_toBottomOf="@+id/tv_SecondBio" />
+
+    <TextView
+        android:id="@+id/tv_Link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text4"
+        android:textColor="@color/link"
+        app:layout_constraintStart_toStartOf="@+id/tv_ThirdBio"
+        app:layout_constraintTop_toBottomOf="@+id/tv_ThirdBio" />
+
+    <Button
+        android:id="@+id/btn_Follow"
+        android:layout_width="@dimen/ButtonWidth"
+        android:layout_height="@dimen/ButtonHeight"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/Btn_marginBottom"
+        android:backgroundTint="@color/btnColor"
+        android:drawableEnd="@drawable/instagram_svgrepo_com"
+        android:drawableTint="@color/white"
+        android:text="@string/text_on_btn"
+        android:textSize="@dimen/ButtonTextSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
